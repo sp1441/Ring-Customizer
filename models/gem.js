@@ -11,7 +11,7 @@ module.exports = (sequelize, DataTypes) => {
   }
   Gem.init({
     name: DataTypes.STRING,
-    image: DataTypes.STRING // URL to an image of the gem
+    image: DataTypes.STRING // URL to the image of the gem here
   }, {
     sequelize,
     modelName: 'Gem',

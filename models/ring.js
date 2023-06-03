@@ -12,7 +12,7 @@ module.exports = (sequelize, DataTypes) => {
   }
   Ring.init({
     name: DataTypes.STRING,
-    image: DataTypes.STRING // URL to an image of the ring
+    image: DataTypes.STRING
   }, {
     sequelize,
     modelName: 'Ring',

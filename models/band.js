@@ -11,7 +11,7 @@ module.exports = (sequelize, DataTypes) => {
   }
   Band.init({
     name: DataTypes.STRING,
-    image: DataTypes.STRING // URL to an image of the band
+    image: DataTypes.STRING
   }, {
     sequelize,
     modelName: 'Band',

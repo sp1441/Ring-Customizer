@@ -4,7 +4,7 @@ const { Model } = require('sequelize');
 module.exports = (sequelize, DataTypes) => {
   class User extends Model {
     static associate(models) {
-      // User can have many UserRing (custom rings)
+      // User can have many UserRing (custom rings they make, either from single pre-sexisting ring or combo of gems/bands)
       User.hasMany(models.UserRing);
     }
   }
