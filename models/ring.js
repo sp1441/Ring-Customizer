@@ -12,7 +12,8 @@ module.exports = (sequelize, DataTypes) => {
   }
   Ring.init({
     name: DataTypes.STRING,
-    image: DataTypes.STRING
+    image: DataTypes.STRING,
+    setting: DataTypes.STRING, // New setting field
   }, {
     sequelize,
     modelName: 'Ring',
